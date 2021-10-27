@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes en CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Abolutas
+            cm, mm, in, px, pt (ponto), pc (paica)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            A W3C recomenda o uso do 'em' e do 'px' para tamanho de fontes
+            16px geralmente é = 1em
+            */
+            font-size: 1em;
+            font-weight: 100;
+            /* lighter, normal, bold, bolder ou de 100 - 900 */
+            font-style: italic;
+            /* text-decoration: underline; */
+        }
+        h1 {
+            /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /* shorthand font (tem ordem certa)
+            - font-style > font-weight > font-size > font-family */
+            font: italic bolder 3em 'Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate corrupti eius accusantium nobis alias ea voluptatem odio eveniet mollitia delectus! Quas, nesciunt magni! Repudiandae culpa sit laborum dicta asperiores unde? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, nulla! Quas quibusdam suscipit provident velit natus vel mollitia ipsum. Et distinctio obcaecati aliquam quod? Officiis quam commodi at ratione adipisci?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perspiciatis magnam doloremque consequatur, perferendis laboriosam illum eveniet unde vero ipsum eligendi soluta illo voluptatum deleniti quae neque error, maiores quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est itaque sequi consectetur iste sapiente perferendis molestias earum rerum, tempora repudiandae excepturi nihil qui repellat voluptas eum reprehenderit exercitationem? Necessitatibus, officiis.</p>
+    <h2>Subtítulo de Fontes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, nisi? Quia pariatur vero cupiditate accusantium dolores debitis. Maxime quo, aperiam autem ipsum, blanditiis exercitationem corporis hic quae, eius rem ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ex odio optio impedit expedita eaque aliquam voluptates possimus aperiam. Quam harum ducimus tenetur nam. Quidem quisquam temporibus sequi nostrum magnam?</p>
+
+</body>
+</html>
